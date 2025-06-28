@@ -10,7 +10,7 @@ export default function Home() {
       </header>
       <main className="w-full max-w-xl bg-white rounded-xl shadow-md p-8 flex flex-col gap-6">
         <p className="text-center text-gray-600 mb-4">
-          Welcome to TechPremi.Com! Soon, you'll find a collection of handy tools and apps here, including:
+          Welcome to TechPremi.Com! Soon, you&apos;ll find a collection of handy tools and apps here, including:
         </p>
         <ul className="space-y-3 text-gray-800 text-base list-disc list-inside">
           <li><span className="font-semibold text-blue-600">Generate Rent Agreement</span> – Create legal rent agreements in minutes.</li>
