@@ -2,36 +2,36 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-100">
+      <header className="bg-white shadow-sm border-b border-orange-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
-              <Image src="/globe.svg" alt="TechPremi Logo" width={40} height={40} className="text-blue-600" />
+              <Image src="/globe.svg" alt="TechPremi Logo" width={40} height={40} className="text-orange-600" />
               <span className="text-xl font-bold text-gray-900">TechPremi.Com</span>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">Home</a>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">About</a>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">FAQ</a>
-              <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+              <a href="#" className="text-gray-600 hover:text-orange-600 transition-colors">Home</a>
+              <a href="#" className="text-gray-600 hover:text-orange-600 transition-colors">About</a>
+              <a href="#" className="text-gray-600 hover:text-orange-600 transition-colors">FAQ</a>
+              <a href="#" className="text-gray-600 hover:text-orange-600 transition-colors">Contact</a>
             </nav>
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="mb-8">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Create Professional
-              <span className="text-blue-600 block">Web Apps</span>
-              in Minutes
+          <div className="mb-12">
+            <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
+              Discover Amazing
+              <span className="text-orange-600 block">Web Tools</span>
+              for Everyone
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Generate useful tools and applications with our intuitive step-by-step wizards. 
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
+              Explore our collection of free, professional web applications designed to make your life easier. 
               No registration required, completely free, and ready to use instantly.
             </p>
           </div>
@@ -39,68 +39,98 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Trusted by Developers & Users Worldwide</h2>
+          <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Featured Applications</h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             {/* Rent Agreement */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-100 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-white text-xl">🏠</span>
+            <div className="group bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border border-orange-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-amber-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
+                <span className="text-white text-2xl">🏠</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Generate Rent Agreement</h3>
-              <p className="text-gray-600 mb-6">Create legal rent agreements in minutes with our step-by-step wizard. No registration required.</p>
-              <a href="https://rentagreement.techpremi.com" className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors text-center">
-                Start Creating
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Rent Agreement Generator</h3>
+              <p className="text-gray-600 mb-8 leading-relaxed">Create professional, legally compliant rental agreements in minutes. Step-by-step wizard with no registration required.</p>
+              <a href="https://rentagreement.techpremi.com" className="inline-block w-full bg-gradient-to-r from-orange-500 to-amber-600 hover:from-orange-600 hover:to-amber-700 text-white py-4 px-6 rounded-xl font-semibold transition-all duration-300 text-center shadow-lg hover:shadow-xl transform hover:scale-105">
+                Generate Agreement
               </a>
             </div>
 
             {/* Dice Roller */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border border-green-100 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-white text-xl">🎲</span>
+            <div className="group bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-8 border border-emerald-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
+                <span className="text-white text-2xl">🎲</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Roll a Dice</h3>
-              <p className="text-gray-600 mb-6">A fun, digital dice roller for games and decisions. Multiple dice types available.</p>
-              <button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-semibold transition-colors">
-                Roll Now
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Digital Dice Roller</h3>
+              <p className="text-gray-600 mb-8 leading-relaxed">A fun, interactive dice roller for games, decisions, and entertainment. Multiple dice types and customization options.</p>
+              <button className="w-full bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white py-4 px-6 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+                Roll Dice
               </button>
             </div>
 
             {/* AI Audit Assistant */}
-            <div className="bg-gradient-to-br from-purple-50 to-violet-50 rounded-xl p-8 border border-purple-100 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-white text-xl">🤖</span>
+            <div className="group bg-gradient-to-br from-purple-50 to-violet-50 rounded-2xl p-8 border border-purple-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
+                <span className="text-white text-2xl">🤖</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">AI Audit Assistant</h3>
-              <p className="text-gray-600 mb-6">Get AI-powered insights and audits for your documents and projects.</p>
-              <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg font-semibold transition-colors">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">AI Audit Assistant</h3>
+              <p className="text-gray-600 mb-8 leading-relaxed">Get AI-powered insights and automated audits for your documents, projects, and business processes.</p>
+              <button className="w-full bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white py-4 px-6 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
                 Start Audit
               </button>
             </div>
           </div>
 
           {/* Coming Soon */}
-          <div className="mt-12 text-center">
-            <div className="inline-block bg-gray-100 rounded-full px-6 py-3">
-              <span className="text-gray-600 font-medium">🚀 More apps coming soon!</span>
+          <div className="mt-16 text-center">
+            <div className="inline-block bg-gradient-to-r from-orange-100 to-amber-100 rounded-full px-8 py-4 border border-orange-200">
+              <span className="text-orange-700 font-semibold text-lg">🚀 More amazing tools coming soon!</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50 to-amber-50">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-gray-900 mb-12">Why Choose TechPremi?</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <span className="text-orange-600 text-2xl">⚡</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Lightning Fast</h3>
+              <p className="text-gray-600">Generate results in seconds, not minutes. Our optimized tools work instantly.</p>
+            </div>
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <span className="text-orange-600 text-2xl">🔒</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">100% Secure</h3>
+              <p className="text-gray-600">Your data stays private. No registration, no personal information required.</p>
+            </div>
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <span className="text-orange-600 text-2xl">💎</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Premium Quality</h3>
+              <p className="text-gray-600">Professional-grade tools with enterprise-level features, completely free.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+      <footer className="bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center space-x-3 mb-4">
+              <div className="flex items-center space-x-3 mb-6">
                 <Image src="/globe.svg" alt="TechPremi Logo" width={32} height={32} className="text-white" />
                 <span className="text-xl font-bold">TechPremi.Com</span>
               </div>
-              <p className="text-gray-400 mb-4">
-                Create legal documents and useful tools easily. Generate professional applications with our step-by-step wizards.
+              <p className="text-gray-400 mb-6 leading-relaxed">
+                Discover amazing web tools designed to make your life easier. Professional applications, completely free.
               </p>
               <div className="flex space-x-4">
                 <span className="text-sm text-gray-400">100% Free & Secure</span>
@@ -108,37 +138,37 @@ export default function Home() {
             </div>
             
             <div>
-              <h3 className="font-semibold mb-4">Quick Links</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Frequently Asked Questions</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
+              <h3 className="font-semibold mb-6 text-lg">Quick Links</h3>
+              <ul className="space-y-3 text-gray-400">
+                <li><a href="#" className="hover:text-orange-400 transition-colors">About Us</a></li>
+                <li><a href="#" className="hover:text-orange-400 transition-colors">Frequently Asked Questions</a></li>
+                <li><a href="#" className="hover:text-orange-400 transition-colors">Privacy Policy</a></li>
+                <li><a href="#" className="hover:text-orange-400 transition-colors">Terms of Service</a></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="font-semibold mb-4">Support & Legal</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Legal Disclaimer</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Sample Apps</a></li>
+              <h3 className="font-semibold mb-6 text-lg">Support & Legal</h3>
+              <ul className="space-y-3 text-gray-400">
+                <li><a href="#" className="hover:text-orange-400 transition-colors">Contact Us</a></li>
+                <li><a href="#" className="hover:text-orange-400 transition-colors">Help Center</a></li>
+                <li><a href="#" className="hover:text-orange-400 transition-colors">Legal Disclaimer</a></li>
+                <li><a href="#" className="hover:text-orange-400 transition-colors">Sample Tools</a></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="font-semibold mb-4">Need Help?</h3>
-              <p className="text-gray-400 mb-4">
-                This tool helps you create useful applications. Please consult with a professional for specific advice.
+              <h3 className="font-semibold mb-6 text-lg">Need Help?</h3>
+              <p className="text-gray-400 mb-6 leading-relaxed">
+                Our tools are designed to be user-friendly. For specific advice, please consult with a professional.
               </p>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors">
+              <button className="bg-gradient-to-r from-orange-500 to-amber-600 hover:from-orange-600 hover:to-amber-700 text-white px-6 py-3 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl">
                 Contact Us
               </button>
             </div>
           </div>
           
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+          <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
             <p>&copy; {new Date().getFullYear()} TechPremi.Com. All rights reserved.</p>
           </div>
         </div>
