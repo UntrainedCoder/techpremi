@@ -51,9 +51,9 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Generate Rent Agreement</h3>
               <p className="text-gray-600 mb-6">Create legal rent agreements in minutes with our step-by-step wizard. No registration required.</p>
-              <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors">
+              <a href="https://rentagreement.techpremi.com" className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition-colors text-center">
                 Start Creating
-              </button>
+              </a>
             </div>
 
             {/* Dice Roller */}
