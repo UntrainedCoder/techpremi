@@ -34,34 +34,6 @@ export default function Home() {
               Generate useful tools and applications with our intuitive step-by-step wizards. 
               No registration required, completely free, and ready to use instantly.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl">
-                Start Creating Apps
-              </button>
-              <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
-                🎯 Interactive Demo
-              </button>
-            </div>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto mb-16">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">15,000+</div>
-              <div className="text-gray-600">Apps Generated</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
-              <div className="text-gray-600">Free</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">4.9</div>
-              <div className="text-gray-600">Rating</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">24/7</div>
-              <div className="text-gray-600">Available</div>
-            </div>
           </div>
         </div>
       </section>
@@ -114,53 +86,6 @@ export default function Home() {
             <div className="inline-block bg-gray-100 rounded-full px-6 py-3">
               <span className="text-gray-600 font-medium">🚀 More apps coming soon!</span>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* How It Works Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">See How It Works</h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Interactive preview of our simple 4-step process to create professional applications
-          </p>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-xl">1</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Choose Your App</h3>
-              <p className="text-gray-600 text-sm">Select from our collection of useful tools</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-xl">2</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Fill Details</h3>
-              <p className="text-gray-600 text-sm">Enter required information step by step</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-xl">3</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Review & Generate</h3>
-              <p className="text-gray-600 text-sm">Preview and generate your result</p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-xl">4</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Download & Use</h3>
-              <p className="text-gray-600 text-sm">Get your result instantly</p>
-            </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg">
-              ▶️ Start Demo
-            </button>
           </div>
         </div>
       </section>
