@@ -63,9 +63,9 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Digital Dice Roller</h3>
               <p className="text-gray-600 mb-8 leading-relaxed">A fun, interactive dice roller for games, decisions, and entertainment. Multiple dice types and customization options.</p>
-              <button className="w-full bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white py-4 px-6 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+              <a href="https://rolladice.techpremi.com/" className="inline-block w-full bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white py-4 px-6 rounded-xl font-semibold transition-all duration-300 text-center shadow-lg hover:shadow-xl transform hover:scale-105">
                 Roll Dice
-              </button>
+              </a>
             </div>
 
             {/* AI Audit Assistant */}
