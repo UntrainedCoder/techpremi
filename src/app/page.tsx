@@ -68,16 +68,16 @@ export default function Home() {
               </a>
             </div>
 
-            {/* AI Audit Assistant */}
+            {/* Gratitude App */}
             <div className="group bg-gradient-to-br from-purple-50 to-violet-50 rounded-2xl p-8 border border-purple-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
-                <span className="text-white text-2xl">🤖</span>
+                <span className="text-white text-2xl">💝</span>
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">AI Audit Assistant</h3>
-              <p className="text-gray-600 mb-8 leading-relaxed">Get AI-powered insights and automated audits for your documents, projects, and business processes.</p>
-              <button className="w-full bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white py-4 px-6 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
-                Start Audit
-              </button>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Gratitude App</h3>
+              <p className="text-gray-600 mb-8 leading-relaxed">Recognize and appreciate others to boost morale, build trust, and create a positive culture. Start appreciating someone today!</p>
+              <a href="https://gratitude.techpremi.com/" className="inline-block w-full bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white py-4 px-6 rounded-xl font-semibold transition-all duration-300 text-center shadow-lg hover:shadow-xl transform hover:scale-105">
+                Start Appreciating
+              </a>
             </div>
           </div>
 
